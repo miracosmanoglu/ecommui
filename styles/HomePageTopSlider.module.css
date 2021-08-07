@@ -18,6 +18,21 @@
   height: 770px;
 }
 
+.sliderBoxImgContainer img {
+  animation-name: imgAnimation;
+  animation-duration: 1s;
+  object-fit: cover;
+}
+
+@keyframes imgAnimation {
+  from {
+    filter: blur(2px);
+  }
+  to {
+    filter: blur(0px);
+  }
+}
+
 .sliderTexts {
   position: absolute;
   z-index: 2;
@@ -123,13 +138,14 @@
     position: absolute;
     z-index: 2;
     right: 0;
-    top: 30px;
+    top: 50%;
+    transform: translateY(-66%);
     width: 100%;
     max-width: 537px;
     margin-top: 0px;
     margin-right: 0px;
     padding: 0 30px;
-    padding-left: 80px;
+    padding-left: 60px;
   }
 
   .mainTitle {
@@ -149,7 +165,7 @@
   .subTitle {
     font-size: 15px;
     font-family: "Playfair Display", serif;
-    font-weight: normal;
+    font-weight: 500;
     color: #333333;
     text-align: right;
     margin: 10px 0;
@@ -158,7 +174,7 @@
   .description {
     font-size: 12px;
     font-family: "Poppins", sans-serif;
-    font-weight: normal;
+    font-weight: 500;
     color: #333333;
     text-align: right;
     margin-bottom: 0px;
@@ -190,12 +206,6 @@
     font-weight: normal;
     color: #333333;
     letter-spacing: 0.4em;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  .sliderTexts {
-    top: 20px;
   }
 }
 

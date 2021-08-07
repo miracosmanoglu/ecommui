@@ -19,6 +19,10 @@
   margin-top: 5px;
 }
 
+.sliderBoxImgContainer img {
+  object-fit: cover;
+}
+
 .sliderTexts {
   margin-top: 22px;
 }
@@ -101,11 +105,11 @@
 
   .sliderBoxImgContainer {
     width: 240px;
-    height: 270px;
+    height: 300px;
   }
 
   .sliderBoxImgContainer img {
-    object-fit: contain;
+    object-fit: cover;
   }
 
   .sliderTexts {
@@ -119,7 +123,6 @@
 
   .subTitle {
     font-size: 12px;
-    height: 35px;
     margin-bottom: 10px;
   }
 

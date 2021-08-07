@@ -37,12 +37,11 @@ export default function iletisim() {
         </div>
         <div className={styles.contactHeadImg}>
           <Image
-            priority
-            quality={50}
+            quality={65}
             width={1280}
             height={250}
             layout="fixed"
-            src="https://i.hizliresim.com/Wr0lKb.png"
+            src="https://res.cloudinary.com/dhy7yh4aa/image/upload/v1618596751/Wr0lKb_ndyjzk.png"
           />
         </div>
       </div>

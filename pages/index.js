@@ -6,7 +6,7 @@ import HomePageGrid from '../components/HomePageGrid.js'
 import HomePageBottomBanner from '../components/HomePageBottomBanner.js'
 import { useState, useEffect } from 'react'
 
-export default function Home({ sliderInfos, bannerInfos }) {
+export default function Home() {
 
   const [perView, setPerView] = useState(3)
 
@@ -22,44 +22,13 @@ export default function Home({ sliderInfos, bannerInfos }) {
       </Head>
 
       <>
-        <HomePageTopSlider sliderInfos={sliderInfos} />
-        <HomePageGrid bannerInfos={bannerInfos} />
+        <HomePageTopSlider />
+        <HomePageGrid />
         <HomePageBottomSlider perView={perView} />
-        <HomePageBottomBanner bannerInfos={bannerInfos} />
+        <HomePageBottomBanner />
       </>
 
     </Layout>
   )
 }
 
-export async function getServerSideProps(context) {
-  // ---/slider/get
-  const res = await fetch(process.env.NEXT_APP_API_URL + `/slider/get/1`, {
-    method: 'GET',
-  })
-  const data = await res.json()
-  if (!data) {
-    return {
-      notFound: true,
-    }
-  }
-  
-  // ---/banner/list
-  const res2 = await fetch(process.env.NEXT_APP_API_URL + `/banner/list`, {
-    method: 'GET',
-  })
-  const data2 = await res2.json()
-
-  if (!data2) {
-    return {
-      notFound: true,
-    }
-  }
-
-  return {
-    props: {
-      sliderInfos: data,
-      bannerInfos: data2
-    },
-  }
-}

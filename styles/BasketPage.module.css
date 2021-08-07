@@ -86,6 +86,10 @@
   position: relative;
 }
 
+.shipProduct img {
+  object-fit: cover;
+}
+
 .shipProduct2B {
   width: 260px;
   height: 120px;

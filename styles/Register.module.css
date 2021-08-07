@@ -85,12 +85,11 @@
   border-radius: 5px;
   padding: 12px 10px;
   color: #333333;
+  margin-bottom: 10px;
   font-size: 10px;
   line-height: 16px;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
-  margin-right: 23px;
-  margin-bottom: 40px;
 }
 
 .passwordInput {
@@ -100,18 +99,18 @@
   border-radius: 5px;
   padding: 12px 10px;
   color: #333333;
+  margin-bottom: 10px;
   font-size: 10px;
   line-height: 16px;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
-  margin-right: 23px;
-  margin-bottom: 19px;
 }
 
 .campaignLabel {
   display: flex;
   align-items: center;
   margin-bottom: 5px;
+  height: fit-content;
 }
 
 .campaignText {
@@ -134,7 +133,6 @@
   margin-left: 10px;
   width: 270px;
   margin-top: 5px;
-  margin-bottom: 17px !important;
 }
 
 .readText span {
@@ -155,6 +153,7 @@
   background-size: 200% 100%;
   background-position: right bottom;
   transition: all 0.2s ease-out;
+  margin-top: 20px;
 }
 
 .registerFormBtn:hover {
@@ -203,10 +202,5 @@
 @media only screen and (max-width: 750px) {
   .registerWrapper {
     width: 90%;
-  }
-
-  .mailInput,
-  .passwordInput {
-    width: 50%;
   }
 }

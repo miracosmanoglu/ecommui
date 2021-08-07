@@ -22,12 +22,12 @@
   position: relative;
 }
 
-.mainImageContainer > div > img {
-  object-fit: contain;
+.mainImageContainer img {
+  object-fit: cover;
 }
 
-.thumbsImageContainer > div > img {
-  object-fit: contain;
+.thumbsImageContainer img {
+  object-fit: cover;
 }
 
 .thumbsImageContainer {
@@ -287,6 +287,10 @@
   margin-bottom: 140px;
   width: 100%;
   justify-content: space-between;
+}
+
+.recommendedProducts img {
+  object-fit: cover;
 }
 
 .recommendedProducts h3 {

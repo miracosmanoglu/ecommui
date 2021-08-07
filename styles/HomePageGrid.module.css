@@ -138,30 +138,6 @@
 }
 
 @media only screen and (max-width: 1250px) {
-  /* .gridWrapper {
-    width: 100%;
-    margin-bottom: 0px;
-  }
-
-  .parent {
-    grid-template-columns: 288.75px 288.75px 308px;
-    grid-template-rows: repeat(2, 232.5px);
-    grid-column-gap: 6.75px;
-    grid-row-gap: 6.75px;
-    margin: auto;
-    width: 900px;
-    margin-bottom: 6.75px;
-  }
-
-  .parent2 {
-    grid-template-columns: 315px repeat(2, 285px);
-    grid-template-rows: repeat(3, 232.5px) repeat(2, 1fr);
-    grid-column-gap: 6.75px;
-    grid-row-gap: 6.75px;
-    width: 900px;
-    margin: auto;
-  } */
-
   .parent {
     display: none;
   }
@@ -188,21 +164,22 @@
   .div1hm {
     width: 90%;
     position: relative;
-    height: 200px;
+    height: 320px;
+    align-self: center;
     margin-bottom: 15px;
   }
   .div2hm {
     width: 90%;
     position: relative;
-    height: 200px;
-    align-self: flex-end;
+    height: 320px;
+    align-self: center;
     margin-bottom: 15px;
   }
   .div3hm {
     width: 90%;
     position: relative;
-    height: 200px;
-
+    align-self: center;
+    height: 320px;
     margin-bottom: 15px;
   }
 
@@ -210,11 +187,11 @@
     position: absolute;
     bottom: 18px;
     right: 18px;
-    width: 250px;
-    height: 50px;
+    width: 150px;
+    height: 40px;
     backdrop-filter: blur(30px) brightness(115%);
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
     display: flex;
@@ -227,34 +204,36 @@
   .div4hm {
     width: 90%;
     position: relative;
-    height: 200px;
-    align-self: flex-end;
+    height: 320px;
+    align-self: center;
     margin-bottom: 15px;
   }
   .div5hm {
     width: 90%;
     position: relative;
-    height: 200px;
+    height: 320px;
+    align-self: center;
     margin-bottom: 15px;
   }
   .div6hm {
     width: 90%;
     position: relative;
-    height: 200px;
-    align-self: flex-end;
+    height: 320px;
+    align-self: center;
     margin-bottom: 15px;
   }
   .div7hm {
     width: 90%;
     position: relative;
-    height: 200px;
+    height: 320px;
     margin-bottom: 15px;
+    align-self: center;
   }
   .div8hm {
     width: 90%;
     position: relative;
-    height: 200px;
-    align-self: flex-end;
+    height: 320px;
+    align-self: center;
     margin-bottom: 15px;
   }
 

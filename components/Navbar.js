@@ -6,7 +6,7 @@ import Link from "next/link";
 import { Popup } from "semantic-ui-react";
 import OutsideClickHandler from "react-outside-click-handler";
 
-export default function Navbar({ menus }) {
+export default function Navbar() {
   const [modalOpenInfo, setModalOpenInfo] = useState(false);
   const handleSubmitSearch = (e) => {
     e.preventDefault();
@@ -20,16 +20,9 @@ export default function Navbar({ menus }) {
           <ul className={styles.navbarTopLeft}>
             <li>
               <span style={{ marginRight: 7 }}>EN</span>{" "}
-              <Image
-                unoptimized={true}
-                src="/arrowdown.svg"
-                alt="arrow"
-                width="12"
-                height="6,86"
-              />
             </li>
             <Image
-              unoptimized={true}
+              quality={65}
               src="/stick.svg"
               alt="arrow"
               width="1"
@@ -41,7 +34,7 @@ export default function Navbar({ menus }) {
               </Link>
             </li>
             <Image
-              unoptimized={true}
+              quality={65}
               src="/stick.svg"
               alt="arrow"
               width="1"
@@ -53,7 +46,7 @@ export default function Navbar({ menus }) {
               </Link>
             </li>
             <Image
-              unoptimized={true}
+              quality={65}
               src="/stick.svg"
               alt="arrow"
               width="1"
@@ -84,7 +77,7 @@ export default function Navbar({ menus }) {
               </Link>
             </li>
             <Image
-              unoptimized={true}
+              quality={65}
               src="/stick.svg"
               alt="arrow"
               width="1"
@@ -109,7 +102,7 @@ export default function Navbar({ menus }) {
           </div>
           <div className={styles.navbarSearch}>
             <Image
-              unoptimized={true}
+              quality={65}
               src="/search.svg"
               alt="arrow"
               width="23"
@@ -127,7 +120,7 @@ export default function Navbar({ menus }) {
             <Link href="/bize-katil">
               <a>
                 <Image
-                  unoptimized={true}
+                  quality={65}
                   src="/usericon.svg"
                   alt="arrow"
                   width="21,6"
@@ -138,7 +131,7 @@ export default function Navbar({ menus }) {
             <Link href="/hesap">
               <a>
                 <Image
-                  unoptimized={true}
+                  quality={65}
                   src="/hearticon.svg"
                   alt="arrow"
                   width="25,91"
@@ -156,7 +149,7 @@ export default function Navbar({ menus }) {
                 <div className={styles.navbarCenterLinksBask}>
                   <span className={styles.basketCount}>2</span>
                   <Image
-                    unoptimized={true}
+                    quality={65}
                     src="/basketicon.svg"
                     alt="arrow"
                     width="25,49"
@@ -172,10 +165,10 @@ export default function Navbar({ menus }) {
                 <div className={styles.navbarBasketItems}>
                   <div className={styles.navbarBasketItemImage}>
                     <Image
-                      unoptimized={true}
+                      quality={65}
                       width={70}
                       height={70}
-                      src="https://i.hizliresim.com/pxJJ4z.png"
+                      src="https://res.cloudinary.com/dhy7yh4aa/image/upload/v1618597416/pexels-william-choquette-2641886_kpjhwu.jpg"
                     />
                   </div>
                   <div className={styles.navbarBasketItemInfo}>
@@ -185,7 +178,7 @@ export default function Navbar({ menus }) {
                   </div>
                   <div className={styles.navbarBasketItemDel}>
                     <Image
-                      unoptimized={true}
+                      quality={65}
                       layout="fill"
                       src="/deleteBasItem.svg"
                     />
@@ -194,10 +187,10 @@ export default function Navbar({ menus }) {
                 <div className={styles.navbarBasketItems}>
                   <div className={styles.navbarBasketItemImage}>
                     <Image
-                      unoptimized={true}
+                      quality={65}
                       width={70}
                       height={70}
-                      src="https://i.hizliresim.com/pxJJ4z.png"
+                      src="https://res.cloudinary.com/dhy7yh4aa/image/upload/v1618597416/pexels-william-choquette-2641886_kpjhwu.jpg"
                     />
                   </div>
                   <div className={styles.navbarBasketItemInfo}>
@@ -207,7 +200,7 @@ export default function Navbar({ menus }) {
                   </div>
                   <div className={styles.navbarBasketItemDel}>
                     <Image
-                      unoptimized={true}
+                      quality={65}
                       layout="fill"
                       src="/deleteBasItem.svg"
                     />
@@ -218,7 +211,7 @@ export default function Navbar({ menus }) {
                     <p>Toplam Fiyat</p>
                     <strong>60,16 TL</strong>
                   </div>
-                  <Link href="/">
+                  <Link href="/sepetim">
                     <a>
                       <button className={styles.navbarBasketBuyBtn}>
                         SATIN AL
@@ -244,17 +237,17 @@ export default function Navbar({ menus }) {
         <div className={styles.navbarBottomSideInner}>
           <ul>
             <li>
-              <Link href="/">
+              <Link href="/organik-gida">
                 <a>EL YAPIMI</a>
               </Link>
             </li>
             <li>
-              <Link href="/">
+              <Link href="/organik-gida">
                 <a>YEREL ÜRÜNLER</a>
               </Link>
             </li>
             <li>
-              <Link href="/magaza/organik-gida">
+              <Link href="/organik-gida">
                 <a>ORGANİK GIDA</a>
               </Link>
             </li>
@@ -266,7 +259,7 @@ export default function Navbar({ menus }) {
               position="bottom left"
               trigger={
                 <li>
-                  <Link href="/">
+                  <Link href="/organik-gida">
                     <a>TAKI</a>
                   </Link>
                 </li>
@@ -373,10 +366,10 @@ export default function Navbar({ menus }) {
                 <div className={styles.searchResultsCard}>
                   <div className={styles.srCardImage}>
                     <Image
-                      unoptimized={true}
+                      quality={65}
                       width={70}
                       height={70}
-                      src="https://i.hizliresim.com/pxJJ4z.png"
+                      src="https://res.cloudinary.com/dhy7yh4aa/image/upload/v1618597416/pexels-william-choquette-2641886_kpjhwu.jpg"
                     />
                   </div>
                   <div className={styles.resultProductInfo}>
@@ -395,10 +388,10 @@ export default function Navbar({ menus }) {
                 <div className={styles.searchResultsCard}>
                   <div className={styles.srCardImage}>
                     <Image
-                      unoptimized={true}
+                      quality={65}
                       width={70}
                       height={70}
-                      src="https://i.hizliresim.com/pxJJ4z.png"
+                      src="https://res.cloudinary.com/dhy7yh4aa/image/upload/v1618597416/pexels-william-choquette-2641886_kpjhwu.jpg"
                     />
                   </div>
                   <div className={styles.resultProductInfo}>
@@ -417,10 +410,10 @@ export default function Navbar({ menus }) {
                 <div className={styles.searchResultsCard}>
                   <div className={styles.srCardImage}>
                     <Image
-                      unoptimized={true}
+                      quality={65}
                       width={70}
                       height={70}
-                      src="https://i.hizliresim.com/pxJJ4z.png"
+                      src="https://res.cloudinary.com/dhy7yh4aa/image/upload/v1618597416/pexels-william-choquette-2641886_kpjhwu.jpg"
                     />
                   </div>
                   <div className={styles.resultProductInfo}>
@@ -439,10 +432,10 @@ export default function Navbar({ menus }) {
                 <div className={styles.searchResultsCard}>
                   <div className={styles.srCardImage}>
                     <Image
-                      unoptimized={true}
+                      quality={65}
                       width={70}
                       height={70}
-                      src="https://i.hizliresim.com/pxJJ4z.png"
+                      src="https://res.cloudinary.com/dhy7yh4aa/image/upload/v1618597416/pexels-william-choquette-2641886_kpjhwu.jpg"
                     />
                   </div>
                   <div className={styles.resultProductInfo}>
@@ -461,10 +454,10 @@ export default function Navbar({ menus }) {
                 <div className={styles.searchResultsCard}>
                   <div className={styles.srCardImage}>
                     <Image
-                      unoptimized={true}
+                      quality={65}
                       width={70}
                       height={70}
-                      src="https://i.hizliresim.com/pxJJ4z.png"
+                      src="https://res.cloudinary.com/dhy7yh4aa/image/upload/v1618597416/pexels-william-choquette-2641886_kpjhwu.jpg"
                     />
                   </div>
                   <div className={styles.resultProductInfo}>
@@ -483,10 +476,10 @@ export default function Navbar({ menus }) {
                 <div className={styles.searchResultsCard}>
                   <div className={styles.srCardImage}>
                     <Image
-                      unoptimized={true}
+                      quality={65}
                       width={70}
                       height={70}
-                      src="https://i.hizliresim.com/pxJJ4z.png"
+                      src="https://res.cloudinary.com/dhy7yh4aa/image/upload/v1618597416/pexels-william-choquette-2641886_kpjhwu.jpg"
                     />
                   </div>
                   <div className={styles.resultProductInfo}>
@@ -505,10 +498,10 @@ export default function Navbar({ menus }) {
                 <div className={styles.searchResultsCard}>
                   <div className={styles.srCardImage}>
                     <Image
-                      unoptimized={true}
+                      quality={65}
                       width={70}
                       height={70}
-                      src="https://i.hizliresim.com/pxJJ4z.png"
+                      src="https://res.cloudinary.com/dhy7yh4aa/image/upload/v1618597416/pexels-william-choquette-2641886_kpjhwu.jpg"
                     />
                   </div>
                   <div className={styles.resultProductInfo}>
@@ -527,10 +520,10 @@ export default function Navbar({ menus }) {
                 <div className={styles.searchResultsCard}>
                   <div className={styles.srCardImage}>
                     <Image
-                      unoptimized={true}
+                      quality={65}
                       width={70}
                       height={70}
-                      src="https://i.hizliresim.com/pxJJ4z.png"
+                      src="https://res.cloudinary.com/dhy7yh4aa/image/upload/v1618597416/pexels-william-choquette-2641886_kpjhwu.jpg"
                     />
                   </div>
                   <div className={styles.resultProductInfo}>
@@ -549,10 +542,10 @@ export default function Navbar({ menus }) {
                 <div className={styles.searchResultsCard}>
                   <div className={styles.srCardImage}>
                     <Image
-                      unoptimized={true}
+                      quality={65}
                       width={70}
                       height={70}
-                      src="https://i.hizliresim.com/pxJJ4z.png"
+                      src="https://res.cloudinary.com/dhy7yh4aa/image/upload/v1618597416/pexels-william-choquette-2641886_kpjhwu.jpg"
                     />
                   </div>
                   <div className={styles.resultProductInfo}>
@@ -571,10 +564,10 @@ export default function Navbar({ menus }) {
                 <div className={styles.searchResultsCard}>
                   <div className={styles.srCardImage}>
                     <Image
-                      unoptimized={true}
+                      quality={65}
                       width={70}
                       height={70}
-                      src="https://i.hizliresim.com/pxJJ4z.png"
+                      src="https://res.cloudinary.com/dhy7yh4aa/image/upload/v1618597416/pexels-william-choquette-2641886_kpjhwu.jpg"
                     />
                   </div>
                   <div className={styles.resultProductInfo}>
@@ -600,12 +593,12 @@ export default function Navbar({ menus }) {
         <div className={styles.hamMenuInner}>
           <ul className={styles.hamMenuInnerLinks}>
             <li>
-              <Link href="/">
+              <Link href="/organik-gida">
                 <a>EL YAPIMI</a>
               </Link>
             </li>
             <li>
-              <Link href="/">
+              <Link href="/organik-gida">
                 <a>YEREL ÜRÜNLER</a>
               </Link>
             </li>
@@ -615,7 +608,7 @@ export default function Navbar({ menus }) {
               </Link>
             </li>
             <li>
-              <Link href="/">
+              <Link href="/organik-gida">
                 <a>TAKI</a>
               </Link>
             </li>
@@ -632,12 +625,12 @@ export default function Navbar({ menus }) {
                 </Link>
               </li>
               <li>
-                <Link href="/">
+                <Link href="/sikca-sorulan-sorular">
                   <a>SSS</a>
                 </Link>
               </li>
               <li>
-                <Link href="/">
+                <Link href="/iletisim">
                   <a>DESTEK</a>
                 </Link>
               </li>

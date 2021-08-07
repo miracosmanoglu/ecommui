@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from '../styles/HomePageBottomSlider.module.css'
-// import homePageTopSliderImg from "/homepagetopsliderImg.svg"
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -25,9 +24,9 @@ export default function HomePageBottomSlider({ perView }) {
                     <div className={styles.sliderBox}>
                         <div className={styles.sliderBoxImgContainer}>
                             <Image
-                                quality={50}
+                                quality={65}
                                 layout='fill'
-                                src="https://i.hizliresim.com/tgiImu.png"
+                                src="https://res.cloudinary.com/dhy7yh4aa/image/upload/v1618597416/pexels-william-choquette-2641886_kpjhwu.jpg"
                                 alt="homepagebottomsliderImg"
                             />
                         </div>
@@ -43,9 +42,9 @@ export default function HomePageBottomSlider({ perView }) {
                     <div className={styles.sliderBox}>
                         <div className={styles.sliderBoxImgContainer}>
                             <Image
-                                quality={50}
+                                quality={65}
                                 layout='fill'
-                                src="https://i.hizliresim.com/tgiImu.png"
+                                src="https://res.cloudinary.com/dhy7yh4aa/image/upload/v1618597416/pexels-william-choquette-2641886_kpjhwu.jpg"
                                 alt="homepagebottomsliderImg2"
                             />
                         </div>
@@ -61,9 +60,9 @@ export default function HomePageBottomSlider({ perView }) {
                     <div className={styles.sliderBox}>
                         <div className={styles.sliderBoxImgContainer}>
                             <Image
-                                quality={50}
+                                quality={65}
                                 layout='fill'
-                                src="https://i.hizliresim.com/tgiImu.png"
+                                src="https://res.cloudinary.com/dhy7yh4aa/image/upload/v1618597416/pexels-william-choquette-2641886_kpjhwu.jpg"
                                 alt="homepagebottomsliderImg3"
                             />
                         </div>
@@ -79,9 +78,9 @@ export default function HomePageBottomSlider({ perView }) {
                     <div className={styles.sliderBox}>
                         <div className={styles.sliderBoxImgContainer}>
                             <Image
-                                quality={50}
+                                quality={65}
                                 layout='fill'
-                                src="https://i.hizliresim.com/tgiImu.png"
+                                src="https://res.cloudinary.com/dhy7yh4aa/image/upload/v1618597416/pexels-william-choquette-2641886_kpjhwu.jpg"
                                 alt="homepagebottomsliderImg"
                             />
                         </div>
@@ -97,9 +96,9 @@ export default function HomePageBottomSlider({ perView }) {
                     <div className={styles.sliderBox}>
                         <div className={styles.sliderBoxImgContainer}>
                             <Image
-                                quality={50}
+                                quality={65}
                                 layout='fill'
-                                src="https://i.hizliresim.com/tgiImu.png"
+                                src="https://res.cloudinary.com/dhy7yh4aa/image/upload/v1618597416/pexels-william-choquette-2641886_kpjhwu.jpg"
                                 alt="homepagebottomsliderImg2"
                             />
                         </div>
@@ -115,9 +114,9 @@ export default function HomePageBottomSlider({ perView }) {
                     <div className={styles.sliderBox}>
                         <div className={styles.sliderBoxImgContainer}>
                             <Image
-                                quality={50}
+                                quality={65}
                                 layout='fill'
-                                src="https://i.hizliresim.com/tgiImu.png"
+                                src="https://res.cloudinary.com/dhy7yh4aa/image/upload/v1618597416/pexels-william-choquette-2641886_kpjhwu.jpg"
                                 alt="homepagebottomsliderImg3"
                             />
                         </div>

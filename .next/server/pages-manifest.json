@@ -1,0 +1,17 @@
+{
+  "/_app": "pages/_app.js",
+  "/bize-katil": "pages/bize-katil.html",
+  "/hesap": "pages/hesap.html",
+  "/iletisim": "pages/iletisim.html",
+  "/": "pages/index.html",
+  "/organik-gida/[category]/[product]": "pages/organik-gida/[category]/[product].html",
+  "/organik-gida/[category]/[product]/yorumlar": "pages/organik-gida/[category]/[product]/yorumlar.html",
+  "/organik-gida/[category]": "pages/organik-gida/[category].html",
+  "/organik-gida": "pages/organik-gida.html",
+  "/satici-basvuru": "pages/satici-basvuru.html",
+  "/sepetim": "pages/sepetim.html",
+  "/sikca-sorulan-sorular": "pages/sikca-sorulan-sorular.html",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}

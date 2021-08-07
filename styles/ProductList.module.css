@@ -68,6 +68,7 @@
   width: 920px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .filterContainer h6 {
@@ -78,14 +79,6 @@
   padding-bottom: 20px;
   padding-left: 10px;
   border-bottom: 1px solid black;
-}
-
-.productDisplay{
-  margin-right: 40px;
-}
-
-.productDisplay:nth-child(3n){
-  margin-right: 0;
 }
 
 .filterAccordion h6 {
@@ -210,14 +203,6 @@
 @media only screen and (max-width: 1270px) {
   .headerBannerProduct p {
     width: 95%;
-  }
-
-  .productDisplay{
-    margin-right: 0px;
-  }
-  
-  .productDisplay:nth-child(3n){
-    margin-right: 0;
   }
 
   .prodBottomContainer {

@@ -124,40 +124,45 @@
     width: 95%;
   }
   .div1m {
-    width: 85%;
+    width: 95%;
     position: relative;
-    height: 150px;
+    height: 250px;
     margin-bottom: 15px;
   }
   .div2m {
-    width: 85%;
+    width: 95%;
     position: relative;
-    height: 150px;
+    height: 250px;
+
     align-self: flex-end;
     margin-bottom: 15px;
   }
   .div3m {
-    width: 85%;
+    width: 95%;
     position: relative;
-    height: 150px;
+    height: 250px;
+
     margin-bottom: 15px;
   }
   .div4m {
-    width: 85%;
+    width: 95%;
     position: relative;
-    height: 150px;
+    height: 250px;
+
     align-self: flex-end;
     margin-bottom: 15px;
   }
   .div5m {
-    width: 85%;
+    width: 95%;
     position: relative;
-    height: 150px;
+    height: 250px;
+
     margin-bottom: 15px;
   }
   .div6m {
-    width: 85%;
-    height: 150px;
+    width: 95%;
+    height: 250px;
+
     position: relative;
     align-self: flex-end;
     margin-bottom: 15px;
