@@ -1,0 +1,193 @@
+.productSliderCardContainer {
+  width: 830px;
+  height: 400px;
+  padding: 20px 33px;
+  display: flex;
+}
+
+.productSliderContainer {
+  width: 360px;
+  height: 360px;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.16);
+}
+
+.sliderImageContainer {
+  width: 360px;
+  height: 360px;
+  position: relative;
+  object-fit: cover;
+}
+
+.sliderInfoContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+  margin-top: 20px;
+  width: 100%;
+  padding-right: 15px;
+}
+
+.sliderInfoContainer h2 {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+.sliderInfoContainer h3 {
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 3px;
+}
+
+.productCode {
+  font-size: 9.5px;
+  margin-top: 8px;
+  font-style: italic;
+}
+
+.productCode span {
+  padding: 0 10px;
+  font-weight: 700;
+}
+
+.productPriceCon {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-bottom: 1px solid #333333;
+  padding-bottom: 20px;
+}
+
+.prodcutPriceBlock {
+  display: flex;
+}
+
+.prodcutPriceDisc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  width: 85px;
+  height: 65px;
+  background-color: #33333315;
+  font-size: 20px;
+  font-weight: 700;
+  color: #00801e;
+}
+
+.prodcutPriceDisc span {
+  color: #00801e;
+  font-size: 13px;
+}
+
+.prodcutShipPrice span {
+  font-size: 18px;
+  color: #00801e;
+  font-weight: 400;
+  text-decoration: line-through;
+  padding-bottom: 7px;
+}
+
+.prodcutShipPrice {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 18px;
+  font-size: 25px;
+  font-weight: 700;
+  color: #00801e;
+}
+
+.productFavBtn {
+  width: fit-content;
+  height: fit-content;
+  line-height: 1;
+  background-color: transparent;
+  border: none;
+}
+
+.productDescription {
+  font-size: 10px;
+  margin-top: 20px;
+}
+
+.basketProCont {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  height: fit-content;
+}
+
+.basketCounterBtn {
+  width: 100px;
+  height: 27px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  border: 1px solid #333333;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.basketCounterBtn button {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 20px;
+  width: 35px;
+  user-select: none;
+}
+
+.addBasketSldBtn {
+  width: 190px;
+  height: 27px;
+  border: 1px solid #333333;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  font-size: 8px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  letter-spacing: 0.4em;
+  background: linear-gradient(to right, white 50%, #333333 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.2s ease-out;
+}
+
+.addBasketSldBtn:hover {
+  background-position: left bottom;
+  color: #333333;
+  transition: all 0.1s ease-out;
+}
+
+.goDetailPage {
+  font-size: 13px;
+  font-weight: 300;
+  justify-self: baseline;
+}
+
+.goDetailPage i {
+  padding-left: 10px;
+  vertical-align: -1px;
+}
+
+.sliderInfoContainer a {
+  height: fit-content;
+  width: fit-content;
+  margin-top: 30px;
+  position: absolute;
+  right: 0;
+}
+
+.goDetailPageCon {
+  display: flex;
+  width: 100%;
+  position: relative;
+}

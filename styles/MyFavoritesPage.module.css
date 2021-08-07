@@ -1,0 +1,146 @@
+.favoritesWrapper {
+  width: 690px;
+  margin-bottom: 107px;
+}
+
+.mainTitle {
+  font-size: 25px;
+  font-family: "Playfair Display", serif;
+  border-bottom: 1px solid #333333;
+  color: #333333;
+  line-height: 1;
+  margin-bottom: 0;
+  font-weight: 600;
+  width: 100%;
+  padding-bottom: 17.5px;
+}
+
+.favoriteCardWrapper {
+  padding-top: 14.5px;
+  padding-bottom: 16px;
+  padding-left: 7px;
+  padding-right: 3px;
+  border-bottom: 1px solid #333333;
+}
+
+.favoriteCardLeftImg {
+  width: 130px;
+  height: 160px;
+  position: relative;
+  margin-right: 30px;
+}
+
+.favoriteCardLeftImg img {
+  object-fit: cover;
+}
+
+.favoriteCardWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.favoriteCardLeft {
+  display: flex;
+}
+
+.favoriteCardDesc {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  line-height: 16px;
+  margin-bottom: 0px;
+}
+
+.favoriteCardDesc b {
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.favoriteCardLeftBtns {
+  margin-top: 62px;
+}
+
+.favoriteCardLeftBtn {
+  width: 88px;
+  height: 30px;
+  color: #333333;
+  border-radius: 5px;
+  border: none;
+  font-size: 10px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #333333 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.2s ease-out;
+  border: 1px solid #333333;
+  margin-right: 8px;
+}
+
+.favoriteCardLeftBtn:hover {
+  background-position: left bottom;
+  color: white;
+  transition: all 0.1s ease-out;
+}
+
+.favoriteCardRight {
+  display: flex;
+  flex-direction: column;
+}
+
+.favoriteCardRightBtn {
+  width: 150px;
+  height: 30px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 10px;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2em;
+  background: linear-gradient(to right, white 50%, #333333 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.2s ease-out;
+  margin-top: 16px;
+}
+
+.favoriteCardRightBtn:hover {
+  background-position: left bottom;
+  color: #333333;
+  transition: all 0.1s ease-out;
+  border: 1px solid #333333;
+}
+
+@media only screen and (max-width: 1200px) {
+  .favoritesWrapper {
+    margin: auto;
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .favoritesWrapper {
+    width: 90%;
+  }
+
+  .favoriteCardWrapper {
+    flex-direction: column;
+  }
+
+  .favoriteCardLeft {
+    margin-bottom: 20px;
+  }
+
+  .favoriteCardLeftBtns {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .favoriteCardLeftBtn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

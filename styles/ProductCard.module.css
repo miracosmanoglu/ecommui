@@ -1,0 +1,129 @@
+.productContainer {
+  height: 590px;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.productImage {
+  position: relative;
+  width: 280px;
+  height: 420px;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.16);
+}
+
+.productImage img {
+  object-fit: contain;
+}
+
+.productInfo {
+  margin-top: 16px;
+}
+
+.productInfo h2 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.productInfo h3 {
+  margin: 8px 0;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.productInfo p {
+  margin: 0;
+  color: #00801e;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.addBasketBtn {
+  margin-top: 20px;
+  border: none;
+  background-color: #333333;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 0.2em;
+  text-align: center;
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.productIcons {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 2;
+  right: 16px;
+  top: 16px;
+}
+
+.productContainer:hover .productIcons button {
+  opacity: 1;
+  transition: ease-in-out 0.2s;
+}
+
+.productIcons button {
+  opacity: 0;
+  width: 41px;
+  height: 41px;
+  border-radius: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.16);
+  border: none;
+  margin-bottom: 6px;
+  transition: ease-in-out 0.2s;
+}
+
+@media only screen and (max-width: 1270px) {
+  .productContainer {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .productContainer {
+    margin-right: 15px;
+    margin-left: 15px;
+    height: fit-content;
+    width: 240px;
+  }
+
+  .productImage {
+    width: 240px;
+    height: 270px;
+  }
+
+  .productImage img {
+    object-fit: contain;
+  }
+
+  .productInfo h3 {
+    height: 60px;
+    margin-bottom: 0;
+  }
+
+  .addBasketBtn {
+    margin-top: 10px;
+  }
+
+  .productInfo p {
+    font-size: 20px;
+  }
+
+  .productIcons button {
+    opacity: 1;
+  }
+  .productIcons button:first-child {
+    display: none;
+  }
+}

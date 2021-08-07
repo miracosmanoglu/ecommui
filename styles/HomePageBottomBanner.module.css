@@ -1,0 +1,260 @@
+.HomePageBottomBanner {
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 140px;
+}
+
+.imageContainer {
+  position: relative;
+  width: 50%;
+  height: 500px;
+}
+
+.imageContainer2 {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.imageContainer img,
+.imageContainer2 img {
+  object-fit: cover;
+}
+
+/* banner1 */
+
+.banner1 {
+  width: 1200px;
+  height: 500px;
+  display: flex;
+  margin: auto;
+  background: #ede7e7;
+  margin-bottom: 70px;
+}
+
+.banner1Texts {
+  padding: 74px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner1Title {
+  font-size: 72px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: #333333;
+  text-align: center;
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+.banner1Desc {
+  width: 365px;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  color: #333333;
+  text-align: center;
+  line-height: 24px;
+  margin: auto;
+  margin-top: 19px;
+  margin-bottom: 46px;
+}
+
+.banner1Btn {
+  width: 270px;
+  height: 65px;
+  border: 1px solid #333333;
+  border-radius: 5px;
+  background: linear-gradient(to right, white 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.2s ease-out;
+}
+
+.banner1Btn:hover {
+  background-position: left bottom;
+  border-color: white;
+  transition: all 0.1s ease-out;
+}
+
+.banner1Btn p {
+  letter-spacing: 0.4em;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  color: #333333;
+}
+
+/* banner2 */
+
+.banner2 {
+  width: 1200px;
+  height: 300px;
+  margin: auto;
+  position: relative;
+  margin-bottom: 9px;
+}
+
+/* .banner2 img {
+  height: unset !important;
+  max-height: unset !important;
+} */
+
+.banner2Texts {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 3;
+  top: 42px;
+  left: 75px;
+  height: 70%;
+  justify-content: center;
+}
+
+.banner2DiscountNumber {
+  font-size: 72px;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  color: white;
+  line-height: 72px;
+  margin-bottom: 0;
+}
+
+.banner2Discount {
+  font-size: 48px;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  color: white;
+  line-height: 72px;
+  margin-bottom: 0;
+}
+
+.banner2Product {
+  font-size: 48px;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  color: white;
+  line-height: 72px;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+  .imageContainer {
+    height: 300px;
+  }
+
+  .imageContainer2 {
+    height: 200px;
+  }
+
+  /* banner1 */
+
+  .banner1 {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 9px;
+  }
+
+  .banner1Texts {
+    padding: 30px;
+  }
+
+  .banner1Title {
+    font-size: 30px;
+  }
+
+  .banner1Desc {
+    margin-bottom: 31px;
+  }
+
+  .banner1Btn {
+  }
+
+  /* banner2 */
+
+  .banner2 {
+    width: 100%;
+    height: 200px;
+  }
+
+  .banner2Texts {
+    top: 26px;
+  }
+
+  .banner2DiscountNumber {
+    font-size: 50px;
+    line-height: 1;
+    margin-bottom: 10px;
+  }
+
+  .banner2Discount {
+    font-size: 38px;
+    line-height: 1;
+    margin-bottom: 10px;
+  }
+
+  .banner2Product {
+    font-size: 38px;
+    line-height: 1;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .HomePageBottomBanner {
+    margin-top: 70px;
+    margin-bottom: 30px;
+  }
+
+  .banner1 {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner1Texts {
+    width: 100%;
+    height: 300px;
+  }
+
+  .banner1Desc {
+    font-size: 14px;
+    width: unset;
+    width: 100%;
+  }
+
+  .imageContainer {
+    height: 300px;
+    width: 100%;
+  }
+
+  .imageContainer2 {
+    height: 150px;
+  }
+
+  /* banner2 */
+
+  .banner2 {
+    height: 150px;
+  }
+
+  .banner2Texts {
+    top: 0;
+    left: 20px;
+    margin: auto;
+    bottom: 0;
+  }
+  .banner2DiscountNumber {
+    font-size: 36px;
+  }
+
+  .banner2Discount {
+    font-size: 24px;
+  }
+
+  .banner2Product {
+    font-size: 24px;
+  }
+}

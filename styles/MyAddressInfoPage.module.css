@@ -1,0 +1,243 @@
+.myAddressInfoPageWrapper {
+  width: 690px;
+  margin-bottom: 107px;
+}
+
+.mainTitleWrapper {
+  width: 100%;
+  border-bottom: 1px solid #333333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainTitle {
+  font-size: 25px;
+  font-family: "Playfair Display", serif;
+  color: #333333;
+  line-height: 1;
+  margin-bottom: 17.5px;
+  font-weight: 600;
+  width: 100%;
+}
+
+.mainTitleLogOut {
+  font-size: 11px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #333333;
+  opacity: 0.6;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.addressWrapper {
+  width: 496px;
+  margin-top: 40px;
+}
+
+.addressTitle {
+  width: 100%;
+  border-bottom: 1px solid #333333;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  color: #333333;
+  line-height: 23px;
+  margin-bottom: 23px;
+  font-weight: 600;
+}
+
+.addressBox {
+  width: 100%;
+  height: 110px;
+  box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.16);
+}
+
+.addressTopButtons {
+  display: flex;
+  justify-content: flex-end;
+  height: 45px;
+}
+
+.addressEditButton {
+  font-size: 11px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #333333;
+  opacity: 0.6;
+  line-height: 1;
+  border: none;
+  background: transparent;
+  margin-right: 30px;
+}
+.addressDeleteButton {
+  font-size: 11px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #333333;
+  opacity: 0.6;
+  line-height: 1;
+  border: none;
+  background: transparent;
+  margin: 0 15px;
+}
+
+.addressText {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #333333;
+  line-height: 16px;
+  margin-bottom: 18px;
+  margin: auto;
+  margin-left: 15px;
+  margin-right: 25px;
+}
+
+/* add address form */
+
+.addressForm {
+  margin-top: 32.5px;
+}
+
+.subTitle {
+  font-size: 13px;
+  font-family: "Playfair Display", serif;
+  color: #333333;
+  line-height: 1;
+  margin-top: 32.5px;
+  margin-bottom: 18px;
+  font-weight: 600;
+}
+
+.desc {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  line-height: 16px;
+  opacity: 0.4;
+  margin-bottom: 4px;
+  margin-top: 5px;
+}
+
+.addressTypes {
+  display: flex;
+  margin-bottom: 17px;
+  margin-top: 10px;
+}
+
+.addressType {
+  display: flex;
+}
+
+.addressTypeText {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  line-height: 16px;
+  margin-left: 6px;
+  margin-right: 23px;
+}
+
+.mailInput,
+.fullNameInput,
+.phoneInput,
+.degreeInput,
+.taxInput,
+.taxNumInput {
+  width: 280px;
+  height: 40px;
+  border: 1px solid #707070;
+  border-radius: 5px;
+  padding: 12px 10px;
+  color: #333333;
+  font-size: 10px;
+  line-height: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.mailInput::placeholder,
+.fullNameInput::placeholder,
+.phoneInput::placeholder,
+.degreeInput::placeholder,
+.taxInput::placeholder,
+.taxNumInput::placeholder {
+  color: rgba(51, 51, 51, 0.4);
+}
+
+.saveBtn {
+  width: 185px;
+  height: 40px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 10px;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2em;
+  background: linear-gradient(to right, white 50%, #333333 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.2s ease-out;
+  margin-right: 5px;
+}
+
+.saveBtn:hover,
+.cancelBtn:hover {
+  background-position: left bottom;
+  color: #333333;
+  transition: all 0.1s ease-out;
+  border: 1px solid #333333;
+}
+
+.cancelBtn {
+  width: 90px;
+  height: 40px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 10px;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2em;
+  background: linear-gradient(to right, white 50%, #333333 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.2s ease-out;
+}
+
+.addressTextArea {
+  width: 280px;
+  max-width: 280px;
+  min-height: 100px;
+  max-height: 300px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .myAddressInfoPageWrapper {
+    margin: auto;
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .myAddressInfoPageWrapper {
+    width: 90%;
+  }
+
+  .addressWrapper {
+    width: 90%;
+  }
+
+  .addressBox {
+    height: unset;
+    padding-bottom: 10px;
+  }
+}

@@ -1,0 +1,45 @@
+.sellerApplicationNavbar {
+  display: flex;
+  width: 1200px;
+  border-bottom: 1px solid #707070;
+  list-style: none;
+  margin: auto;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 98.6px;
+}
+
+.sellerApplicationNavbar li {
+  font-size: 15px;
+  font-family: "Playfair Display", serif;
+  color: #333333;
+  line-height: 1;
+  font-weight: 400;
+  padding-bottom: 21.4px;
+  width: 170px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.activeSection {
+  border-bottom: 1px solid #333333;
+  font-weight: 900 !important;
+}
+
+@media only screen and (max-width: 1250px) {
+  .sellerApplicationNavbar {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .activeSection {
+    border: none;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  /* .sellerApplicationNavbar {
+    width: 90%;
+  } */
+}

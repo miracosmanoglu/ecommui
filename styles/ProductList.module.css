@@ -1,0 +1,273 @@
+.prodBreadCrumb {
+  width: 95%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.headerBannerProduct {
+  width: 100%;
+  height: 256px;
+  position: relative;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.headerBannerProduct img {
+  object-fit: cover;
+}
+
+.headerBannerProduct p {
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  position: absolute;
+  font-size: 25px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.headerBannerProduct p span {
+  font-size: 35px;
+}
+
+.prodTopContainer {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  height: fit-content;
+  margin-bottom: 50px;
+}
+
+.prodTopContainer h2 {
+  font-size: 26px;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  margin: 0;
+}
+
+.filterContainer {
+  width: 160px;
+}
+
+.prodBottomContainer {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.productsContainer {
+  width: 920px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filterContainer h6 {
+  font-weight: 300;
+  font-size: 15px;
+  color: #333333d3;
+  font-style: italic;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  border-bottom: 1px solid black;
+}
+
+.productDisplay{
+  margin-right: 40px;
+}
+
+.productDisplay:nth-child(3n){
+  margin-right: 0;
+}
+
+.filterAccordion h6 {
+  font-weight: 400;
+  font-size: 15px;
+  font-style: normal;
+  color: #333333;
+  padding: 10px;
+  padding-top: 12px;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+  margin: 0;
+  position: relative;
+  user-select: none;
+}
+
+.filterAccordion span {
+  font-size: 20px;
+  position: absolute;
+  right: 8px;
+  top: 10px;
+  font-weight: 400;
+}
+
+.filterAccordionInner {
+  padding: 12px 6px 12px 10px;
+  margin-top: 7px;
+  animation-name: fadeIN;
+  animation-duration: 0.5s;
+  border-bottom: 1px solid black;
+}
+
+.filterAccordionInnerPacks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.filterAccordionInnerClose {
+  display: none;
+}
+@keyframes fadeIN {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.counterDetail {
+  width: 100%;
+  margin-top: -20px;
+  margin-bottom: 50px;
+  padding: 15px 5px;
+  border-top: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+}
+
+.loadMoreProdBtn {
+  width: 270px;
+  height: 64px;
+  border: 1px solid #333333;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: auto;
+  margin-bottom: 270px;
+  letter-spacing: 0.4em;
+  background: linear-gradient(to right, #333333 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.2s ease-out;
+}
+
+.loadMoreProdBtn:hover {
+  background-position: left bottom;
+  color: white;
+  transition: all 0.1s ease-out;
+}
+
+.goTopBtn {
+  width: 30px;
+  height: 30px;
+  color: white;
+  background-color: #333333;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 4;
+  bottom: 504.5px;
+  right: -200px;
+  cursor: pointer;
+}
+
+.swiperModalProduct {
+  width: 830px;
+  height: 400px;
+}
+
+@media only screen and (max-width: 1640px) {
+  .goTopBtn {
+    right: -80px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .goTopBtn {
+    right: 0px;
+    bottom: 287.5px;
+  }
+}
+
+@media only screen and (max-width: 1270px) {
+  .headerBannerProduct p {
+    width: 95%;
+  }
+
+  .productDisplay{
+    margin-right: 0px;
+  }
+  
+  .productDisplay:nth-child(3n){
+    margin-right: 0;
+  }
+
+  .prodBottomContainer {
+    width: 95%;
+    flex-direction: column;
+  }
+
+  .prodTopContainer {
+    width: 95%;
+  }
+
+  .productsContainer {
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+  }
+
+  .filterContainer {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .loadMoreProdBtn {
+    margin-bottom: 100px;
+  }
+  .prodTopContainer h2 {
+    margin-bottom: 20px;
+  }
+
+  .prodTopContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .goTopBtn {
+    right: 0px;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    bottom: 27.5px;
+  }
+
+  .headerBannerProduct {
+    margin-top: 0;
+  }
+}

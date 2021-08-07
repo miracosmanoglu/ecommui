@@ -1,0 +1,377 @@
+.orderPageWrapper {
+  width: 690px;
+  margin-bottom: 107px;
+}
+
+.mainTitleWrapper {
+  width: 100%;
+  border-bottom: 1px solid #333333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainTitle {
+  font-size: 25px;
+  font-family: "Playfair Display", serif;
+  color: #333333;
+  line-height: 1;
+  margin-bottom: 17.5px;
+  font-weight: 600;
+  width: 100%;
+}
+
+.mainTitleLogOut {
+  font-size: 11px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #333333;
+  opacity: 0.6;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.orderCountText {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1;
+  margin-top: 35px;
+  padding-bottom: 84px;
+  border-bottom: 1px solid #333333;
+  margin-bottom: 0px;
+}
+
+.orderWrapper {
+  border-bottom: 1px solid #333333;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 21px;
+  padding-bottom: 12px;
+  padding-left: 10px;
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+.orderDate {
+  position: absolute;
+  left: 0;
+  top: 5px;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  opacity: 0.4;
+  line-height: 1;
+}
+
+.orderLeft {
+  display: flex;
+}
+
+.orderCode {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1;
+  margin-right: 79px;
+  margin-bottom: 0px;
+}
+
+.orderCode b {
+  font-weight: 600;
+}
+
+.orderStatus {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #00801e;
+  line-height: 1;
+  margin-bottom: 0px;
+}
+
+.orderRight {
+  display: flex;
+}
+
+.orderRight p {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1;
+  margin-right: 37px;
+  margin-bottom: 0px;
+}
+
+.orderRight b {
+  font-weight: 600;
+}
+
+.subTitle {
+  display: flex;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1;
+  margin-bottom: 0px;
+  padding: 28px 0;
+  border-bottom: 1px solid #333333;
+}
+
+.subTitle div {
+  margin-right: 12px;
+}
+
+.orderDetailCard {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding-top: 29px;
+  padding-bottom: 23px;
+  padding-left: 10px;
+  padding-right: 5px;
+  align-items: flex-end;
+  border-bottom: 1px solid #333333;
+}
+
+.orderDetailDateInfo {
+  position: absolute;
+  top: 13px;
+  left: 0;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  opacity: 0.4;
+  color: #333333;
+  line-height: 1;
+  margin-bottom: 0px;
+}
+
+.orderDetailCardLeft {
+  display: flex;
+  flex-direction: column;
+}
+
+.orderDetailStatus {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #333333;
+  line-height: 15px;
+  margin-bottom: 0px;
+}
+
+.orderDetailStatus span {
+  color: #00801e;
+  font-weight: 600;
+}
+
+.orderDetailCompany {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  line-height: 15px;
+  margin-bottom: 4px;
+}
+
+.orderDetailCompany b {
+  font-weight: 500;
+  font-size: 10px;
+}
+
+.orderDetailInfo {
+  display: flex;
+}
+
+.orderDetailImg {
+  width: 60px;
+  height: 65px;
+  position: relative;
+  margin-right: 12px;
+}
+
+.orderDetailText {
+  display: flex;
+  flex-direction: column;
+}
+
+.orderDetailText p {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  line-height: 16px;
+  margin-bottom: 0px;
+}
+
+.orderDetailText b {
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 16px;
+}
+
+.orderDetailCardRight {
+  display: flex;
+  flex-direction: column;
+}
+
+.orderDetailCardRight button:first-child {
+  margin-bottom: 12px;
+}
+
+.orderDetailButton {
+  width: 150px;
+  height: 30px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 10px;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2em;
+  background: linear-gradient(to right, white 50%, #333333 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.2s ease-out;
+}
+
+.orderDetailButton:hover {
+  background-position: left bottom;
+  color: #333333;
+  transition: all 0.1s ease-out;
+  border: 1px solid #333333;
+}
+
+.orderSummaryWrappper {
+  display: flex;
+  flex-direction: column;
+  width: 690px;
+  height: 250px;
+  background-color: rgba(51, 51, 51, 0.05);
+  padding-left: 34px;
+  padding-top: 16px;
+  margin-top: 24px;
+}
+
+.orderSummaryTitle {
+  font-size: 15px;
+  font-family: "Playfair Display", serif;
+  color: #333333;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.orderSummaryTop,
+.orderSummaryBottom {
+  display: flex;
+}
+
+.orderSummaryTop {
+  margin-top: 25px;
+  margin-bottom: 33px;
+}
+
+.orderSummaryTop div,
+.orderSummaryBottom div {
+  flex: 1;
+}
+
+.orderSummaryTop div b:first-child,
+.orderSummaryBottom div b:first-child {
+  margin-bottom: 4px;
+}
+
+.orderSummaryTexts {
+  display: flex;
+  flex-direction: column;
+}
+
+.orderSummaryTexts p {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #333333;
+  line-height: 16px;
+  margin-bottom: 0px;
+}
+
+.orderSummaryTexts b {
+  font-weight: 600;
+  font-size: 10px;
+}
+
+.orderSummaryCardImg {
+  margin-bottom: -5px;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .orderPageWrapper {
+    margin: auto;
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .orderPageWrapper {
+    width: 90%;
+  }
+
+  .orderSummaryWrappper {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .orderDetailCard {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .orderDetailCardRight {
+    margin-top: 20px;
+  }
+
+  .orderSummaryWrappper {
+    height: unset;
+    padding-bottom: 10px;
+  }
+
+  .orderSummaryTop {
+    flex-direction: column;
+  }
+
+  .orderSummaryBottom {
+    flex-direction: column;
+  }
+
+  .orderSummaryTexts {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .orderWrapper {
+    flex-direction: column;
+  }
+
+  .orderLeft {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .orderCode {
+    margin-bottom: 10px;
+  }
+
+  .orderRight {
+    justify-content: space-between;
+  }
+}

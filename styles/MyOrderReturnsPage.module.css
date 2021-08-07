@@ -1,0 +1,335 @@
+.orderReturnsPageWrapper {
+  width: 690px;
+  margin-bottom: 107px;
+}
+
+.mainTitleWrapper {
+  width: 100%;
+  border-bottom: 1px solid #333333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainTitle {
+  font-size: 25px;
+  font-family: "Playfair Display", serif;
+  color: #333333;
+  line-height: 1;
+  margin-bottom: 17.5px;
+  font-weight: 600;
+  width: 100%;
+}
+
+.subTitle {
+  display: flex;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1;
+  margin-bottom: 0px;
+  padding: 28px 0;
+  border-bottom: 1px solid #333333;
+}
+
+.subTitle div {
+  margin-right: 12px;
+}
+
+.orderReturnsCard {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding-top: 29px;
+  padding-bottom: 23px;
+  padding-left: 10px;
+  padding-right: 5px;
+  align-items: center;
+  border-bottom: 1px solid #333333;
+}
+
+.orderReturnDateInfo {
+  position: absolute;
+  top: 13px;
+  left: 0;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  opacity: 0.4;
+  color: #333333;
+  line-height: 1;
+  margin-bottom: 0px;
+}
+
+.orderReturnCardLeft {
+  display: flex;
+  flex-direction: column;
+}
+
+.orderReturnStatus {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #333333;
+  line-height: 15px;
+  margin-bottom: 11px;
+}
+
+.orderReturnStatus b {
+  font-size: 10px;
+  font-weight: 600;
+  margin-right: 80px;
+}
+
+.orderReturnStatus span {
+  color: #be0000;
+  font-weight: 600;
+}
+.orderReturnInfo {
+  display: flex;
+}
+
+.orderReturnImg {
+  width: 60px;
+  height: 65px;
+  position: relative;
+  margin-right: 12px;
+}
+
+.orderReturnText {
+  display: flex;
+  flex-direction: column;
+}
+
+.orderReturnText p {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  line-height: 16px;
+  margin-bottom: 0px;
+}
+
+.orderReturnText b {
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 16px;
+}
+
+.orderReturnCardRight {
+  display: flex;
+  flex-direction: column;
+}
+
+.orderReturnPrice {
+  color: #333333;
+  padding-left: 16px;
+  font-size: 10px;
+  margin-bottom: 27px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.orderReturnPrice b {
+  font-weight: 600;
+  font-size: 10px;
+}
+.orderReturnButton {
+  width: 150px;
+  height: 30px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 10px;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2em;
+  background: linear-gradient(to right, white 50%, #333333 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.2s ease-out;
+}
+
+.orderRatingBtn:hover,
+.orderReturnButton:hover {
+  background-position: left bottom;
+  color: #333333;
+  transition: all 0.1s ease-out;
+  border: 1px solid #333333;
+}
+
+/* rating modal */
+
+.orderRatingModal {
+  padding-top: 48px;
+  padding-bottom: 39px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 500px !important;
+  height: 550px !important;
+}
+
+.orderRatingInfoWrapper {
+  display: flex;
+  margin-bottom: 29px;
+}
+
+.orderRatingImg {
+  width: 60px;
+  height: 65px;
+  position: relative;
+  margin-right: 12px;
+}
+
+.orderRatingTitle {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #333333;
+  line-height: 16px;
+  margin-bottom: 0px;
+}
+
+.orderRatingContent {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  line-height: 16px;
+  margin-bottom: 0px;
+}
+
+.orderRatingStarText {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #333333;
+  line-height: 16px;
+  margin-bottom: 12px;
+}
+
+.orderRatingStars {
+  margin-bottom: 20px;
+  font-size: 1.4rem !important;
+}
+
+.desc {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  opacity: 0.4;
+  line-height: 16px;
+  margin-bottom: 0px;
+}
+
+.orderRatingTextArea {
+  width: 100%;
+  height: 100px;
+  max-width: 100%;
+  max-height: 200px;
+  border: 1px solid #333333;
+}
+
+.orderRatingTextAreaSize {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  line-height: 16px;
+  margin-bottom: 0px;
+  text-align: right;
+}
+
+.orderRatingCriterion {
+  padding: 9px 5px;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  line-height: 16px;
+  margin-bottom: 29px;
+  margin-top: 12.5px;
+  border-top: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.readLabel {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.readText {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  line-height: 18px;
+  margin-left: 10px;
+}
+.readText b {
+  font-weight: 600;
+}
+
+.orderRatingBtn {
+  width: 400px;
+  height: 30px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 10px;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2em;
+  background: linear-gradient(to right, white 50%, #333333 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.2s ease-out;
+  margin-top: 18px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .orderReturnsPageWrapper {
+    margin: auto;
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .orderReturnsPageWrapper {
+    width: 90%;
+  }
+
+  .orderReturnsCard {
+    flex-direction: column;
+  }
+
+  .orderReturnStatus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .orderReturnStatus b {
+    margin-right: 0px;
+  }
+
+  .orderReturnPrice {
+    padding-left: 10px;
+  }
+
+  .orderRatingModal {
+    width: 300px !important;
+  }
+
+  .orderRatingBtn {
+    width: 100%;
+  }
+}

@@ -1,0 +1,171 @@
+.myGiftCouponsWrapper {
+  width: 690px;
+  margin-bottom: 107px;
+}
+
+.mainTitleWrapper {
+  width: 100%;
+  border-bottom: 1px solid #333333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainTitle {
+  font-size: 25px;
+  font-family: "Playfair Display", serif;
+  color: #333333;
+  line-height: 1;
+  margin-bottom: 17.5px;
+  font-weight: 600;
+  width: 100%;
+}
+
+.subTitle {
+  display: flex;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1;
+  margin-bottom: 0px;
+  padding-top: 35.5px;
+  padding-bottom: 84px;
+  border-bottom: 1px solid #333333;
+}
+
+.couponCardWrapper {
+  padding-top: 9px;
+  padding-bottom: 16px;
+  padding-left: 10px;
+  padding-right: 4px;
+  border-bottom: 1px solid #333333;
+}
+
+.couponCardTitle {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1;
+  margin-bottom: 0px;
+}
+
+.couponCardTitle b {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.couponCardBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 22px;
+}
+
+.couponCardLeft {
+  display: flex;
+}
+
+.couponPrice {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #333333;
+  line-height: 1;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 34px;
+}
+
+.couponPrice span {
+  font-size: 13px;
+}
+
+.couponCardDesc {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1;
+  margin-bottom: 6px;
+}
+
+.couponCardDesc b {
+  font-weight: 600;
+}
+
+.couponCardRight {
+  display: flex;
+  flex-direction: column;
+}
+
+.couponCardRight button:nth-child(1) {
+  width: 150px;
+  height: 30px;
+  color: #333333;
+  border-radius: 5px;
+  border: none;
+  font-size: 10px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  border: 1px solid #333333;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+
+.couponCardRight button:nth-child(1) div {
+  margin-right: 6.6px;
+}
+
+.couponCardRight button:nth-child(2) {
+  width: 150px;
+  height: 30px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 10px;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, white 50%, #333333 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.2s ease-out;
+}
+
+.couponCardRight button:nth-child(2):hover {
+  background-position: left bottom;
+  color: #333333;
+  transition: all 0.1s ease-out;
+  border: 1px solid #333333;
+}
+
+@media only screen and (max-width: 1200px) {
+  .myGiftCouponsWrapper {
+    margin: auto;
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .myGiftCouponsWrapper {
+    width: 90%;
+  }
+
+  .couponCardBottom {
+    flex-direction: column;
+  }
+
+  .couponCardRight {
+    margin-top: 20px;
+  }
+
+  .couponCardTitle {
+    line-height: 20px;
+  }
+}

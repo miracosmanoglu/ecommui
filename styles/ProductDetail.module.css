@@ -1,0 +1,938 @@
+.productDetailBreadCrumb {
+  width: 95%;
+  max-width: 1200px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.productDetailMainContainer {
+  width: 95%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.productSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainImageContainer {
+  width: 650px;
+  height: 650px;
+  position: relative;
+}
+
+.mainImageContainer > div > img {
+  object-fit: contain;
+}
+
+.thumbsImageContainer > div > img {
+  object-fit: contain;
+}
+
+.thumbsImageContainer {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.16);
+}
+
+.mainSliderContainerProduct {
+  width: 650px;
+  height: 650px;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.16);
+  margin-bottom: 23px;
+}
+
+.thumbsSliderContainerProduct {
+  width: 650px;
+  height: 120px;
+}
+.productShippingDetail {
+  padding-left: 50px;
+}
+.productShippingDetail h2 {
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.productShippingDetail h3 {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 5px 0;
+}
+
+.productCodeDetail {
+  font-size: 9.5px;
+  margin-top: 8px;
+  font-style: italic;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #333333;
+}
+
+.productCodeDetail span {
+  padding: 0 10px;
+  font-weight: 700;
+}
+
+.productDescriptionDetail {
+  font-size: 12px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #333333;
+}
+
+.productPriceConDetail {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-bottom: 1px solid #333333;
+  padding-bottom: 20px;
+}
+
+.prodcutPriceBlockDetail {
+  display: flex;
+}
+
+.prodcutPriceDiscDetail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  width: 85px;
+  height: 65px;
+  background-color: #33333315;
+  font-size: 20px;
+  font-weight: 700;
+  color: #00801e;
+}
+
+.prodcutPriceDiscDetail span {
+  color: #00801e;
+  font-size: 13px;
+}
+
+.prodcutShipPriceDetail span {
+  font-size: 18px;
+  color: #00801e;
+  font-weight: 400;
+  text-decoration: line-through;
+  padding-bottom: 7px;
+}
+
+.prodcutShipPriceDetail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 18px;
+  font-size: 25px;
+  font-weight: 700;
+  color: #00801e;
+}
+
+.productFavBtnDetail {
+  width: fit-content;
+  height: fit-content;
+  line-height: 1;
+  background-color: transparent;
+  border: none;
+}
+
+.basketProContDetail {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  height: fit-content;
+}
+
+.basketCounterBtnDetail {
+  width: 150px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  border: 1px solid #333333;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.basketCounterBtnDetail button {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 20px;
+  width: 55px;
+  user-select: none;
+}
+
+.addBasketSldBtnDetail {
+  width: 280px;
+  height: 40px;
+  border: 1px solid #333333;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  letter-spacing: 0.4em;
+  background: linear-gradient(to right, white 50%, #333333 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.2s ease-out;
+}
+
+.addBasketSldBtnDetail:hover {
+  background-position: left bottom;
+  color: #333333;
+  transition: all 0.1s ease-out;
+}
+
+.productDetailCargoTıme {
+  font-size: 10px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.prodShareIcons {
+  margin-top: 40px;
+  display: flex;
+}
+
+.prodShareIcons i:first-child {
+  margin-right: 25px;
+}
+
+.prodShareIcons i {
+  margin-right: 7.5px;
+  font-size: 17px;
+  cursor: pointer;
+}
+.productChoice {
+  padding: 20px 0;
+  border-bottom: 1px solid #333333;
+}
+.productChoice p {
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.productChoices {
+  display: flex;
+}
+
+.productChoices span {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: black;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.productTabSection {
+  margin: 120px 0;
+}
+
+.productTabs {
+  display: flex;
+  border-bottom: 1px solid #333333;
+  border-top: 1px solid #333333;
+  margin-bottom: 40px;
+  height: fit-content;
+  height: 50px;
+}
+
+.productTabs h6 {
+  font-size: 15px;
+  width: 192px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  text-align: center;
+  position: relative;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.productTabs h6 span {
+  width: 192px;
+  height: 3px;
+  background-color: #00801e;
+  display: block;
+  position: absolute;
+  bottom: -1.5px;
+}
+
+.productTabSection p {
+  max-width: 700px;
+  margin-left: 49px;
+}
+
+.recommendedProducts {
+  display: flex;
+  margin-bottom: 140px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.recommendedProducts h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  margin-left: 70px;
+  font-weight: 600;
+  padding-top: 45px;
+  margin-right: 130px;
+}
+
+.reccommendedSliderCon {
+  max-width: 1300px;
+  height: 500px;
+}
+
+.reccommendedSliderImage {
+  position: relative;
+  width: 280px;
+  height: 420px;
+  margin: auto;
+  margin-bottom: 70px;
+}
+
+.commentSection {
+  max-width: 1200px;
+  margin: auto;
+  position: relative;
+}
+
+.commentSecHeader {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #333333;
+  border-top: 1px solid #333333;
+}
+
+.commentSecHeader h4 {
+  padding-left: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.commentSecHeaderC {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #333333;
+  border-top: 1px solid #333333;
+  margin-bottom: 40px;
+}
+
+.commentSecHeaderC h4 {
+  padding-left: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.commentSecHeaderC span {
+  font-size: 10px;
+  padding-right: 30px;
+  font-style: italic;
+}
+
+.allRatingsContainer {
+  display: flex;
+  padding-left: 40px;
+  margin-top: 40px;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.allRatingsMinimalize {
+  width: 150px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 200px;
+}
+
+.allRatingsMinimalize strong {
+  font-size: 45px;
+}
+
+.allRatingsMinimalize p {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.allRatingsStars {
+  display: flex;
+}
+
+.allRatingsStars div {
+  width: 20px;
+  height: 20px;
+  margin: 6px 3px 10px 3px;
+}
+
+.allRatingProgress {
+  display: flex;
+  color: #707070;
+  margin-bottom: 10px;
+}
+
+.allRatingProgressContainer {
+  width: 390px;
+}
+
+.ratingProgressBar {
+  width: 280px;
+}
+
+.allRatingProgress span {
+  color: #707070;
+}
+
+.ratingDeg {
+  display: block;
+  width: 40px;
+  text-align: center;
+  padding-right: 16px;
+}
+
+.ratingPercent {
+  padding-left: 10px;
+}
+
+.comment {
+  display: flex;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #333333;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.commentStars {
+  width: 140px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.commentInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.commentDate {
+  font-size: 11px;
+  color: #3333338e;
+  margin-top: 20px;
+  margin-bottom: 6px;
+}
+
+.commenterName {
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+
+.commentFav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.commentFav span {
+  font-size: 11px;
+}
+
+.commentFav button {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+.commentFav button span {
+  padding-left: 5px;
+}
+
+.commentText {
+  padding-left: 120px;
+  font-size: 13px;
+}
+
+.commentReport {
+  font-size: 10px;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-weight: 500;
+  position: absolute;
+  bottom: 10px;
+  right: 25px;
+  font-style: italic;
+}
+
+.moreComment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  outline: none;
+  margin: auto;
+  margin-top: 40px;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 150px;
+}
+
+.moreComment span {
+  padding-left: 8px;
+  font-size: 14px;
+}
+
+.goTopBtnComment {
+  width: 30px;
+  height: 30px;
+  color: white;
+  background-color: #333333;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 4;
+  bottom: 50px;
+  right: -200px;
+  cursor: pointer;
+}
+
+.reportCommentContainerp {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 36px;
+}
+
+.reportCommentContainerp h6 {
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+.reportCommentContainerp p {
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+.reportCommentContainerBtnsp {
+  display: flex;
+}
+
+.reportCommentContainerBtnsp button {
+  width: 195px;
+  height: 30px;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #333333;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reportCommentContainerBtn1p {
+  color: #333333;
+  background: linear-gradient(to right, #333333 50%, white 50%);
+  background-size: 205% 100%;
+  background-position: right bottom;
+  transition: all 0.2s ease-out;
+  margin-right: 10px;
+}
+
+.reportCommentContainerBtn1p:hover {
+  background-position: left bottom;
+  color: white;
+  transition: all 0.1s ease-out;
+}
+
+.reportCommentContainerBtn2p {
+  color: white;
+  background: linear-gradient(to right, white 50%, #333333 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.2s ease-out;
+  margin-right: 10px;
+}
+
+.reportCommentContainerBtn2p:hover {
+  background-position: left bottom;
+  color: #333333;
+  transition: all 0.1s ease-out;
+}
+
+.reportCommentContainerDonep {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 36px;
+}
+
+.reportCommentContainerDonep h6 {
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.reportCommentContainerDonep p {
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 45px;
+}
+
+.reportCommentContainerSubp {
+  width: 100%;
+  height: 30px;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #333333;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  background: linear-gradient(to right, white 50%, #333333 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.2s ease-out;
+  margin-top: 50px;
+}
+
+.reportCommentContainerSubp:hover {
+  background-position: left bottom;
+  color: #333333;
+  transition: all 0.1s ease-out;
+}
+
+.productTabsShip {
+  margin-left: 49px;
+}
+
+.productTabsShipImage {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.productTabsShipImage div {
+  display: flex;
+  position: relative;
+  width: 30px;
+  height: 24px;
+}
+
+.productTabsShipImage p {
+  margin-left: 20px;
+  font-weight: 700;
+}
+
+.productTabsShipDesc {
+  margin-left: 0 !important;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1775px) {
+  .recommendedProducts h3 {
+    margin-right: 90px;
+  }
+  .reccommendedSliderCon {
+    min-width: 50%;
+    max-width: 70%;
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 1655px) {
+  .goTopBtnComment {
+    bottom: 55px;
+    right: -50px;
+  }
+}
+
+@media only screen and (max-width: 1340px) {
+  .recommendedProducts h3 {
+    margin-right: 90px;
+    font-size: 35px;
+  }
+
+  .goTopBtnComment {
+    bottom: -75px;
+    right: 0px;
+    left: 0;
+    margin: auto;
+  }
+
+  .reccommendedSliderCon {
+    min-width: 50%;
+    max-width: 90%;
+    height: 500px;
+  }
+
+  .recommendedProducts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 1210px) {
+  .productSection {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .productShippingDetail {
+    padding-left: 0;
+    margin-top: 10px;
+  }
+
+  .mainSliderContainerProduct {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .thumbsSliderContainerProduct {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .commentText {
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .reccommendedSliderImage {
+    width: 180px;
+    height: 320px;
+    margin: auto;
+    margin-bottom: 70px;
+  }
+  .reccommendedSliderImage img {
+    object-fit: cover;
+  }
+  .reccommendedSliderCon {
+    height: fit-content;
+  }
+
+  .recommendedProducts h3 {
+    margin-right: 0px;
+    font-size: 30px;
+    margin-left: 0;
+    padding-top: 0;
+    width: 90%;
+  }
+  .recommendedProducts {
+    margin-bottom: 50px;
+  }
+
+  .productTabSection p {
+    max-width: 700px;
+    margin-left: 0px;
+  }
+
+  .productTabsShip {
+    margin-left: 0px;
+  }
+
+  .productTabsShipImage div {
+    margin-right: 10px;
+  }
+
+  .allRatingsContainer {
+    display: flex;
+    margin: auto;
+    padding-left: 0px;
+    margin-top: 40px;
+    width: 95%;
+    margin-bottom: 50px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .allRatingsMinimalize {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+
+  .ratingProgressBar {
+    width: 180px;
+  }
+  .allRatingProgressContainer {
+    width: fit-content;
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  .reccommendedSliderImage {
+    width: 200px;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 70px;
+  }
+
+  .mainSliderContainerProduct {
+    width: 280px;
+    height: 280px;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.16);
+    margin-bottom: 23px;
+  }
+
+  .mainImageContainer {
+    width: 280px;
+    height: 280px;
+    position: relative;
+  }
+
+  .thumbsSliderContainerProduct {
+    width: 280px;
+  }
+
+  .comment {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #333333;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .commentText {
+    padding-left: 0px;
+    padding-top: 20px;
+    padding-right: 0;
+    padding-bottom: 10px;
+  }
+
+  .productTabSection {
+    margin: 70px 0;
+  }
+
+  .basketProContDetail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
+    height: fit-content;
+  }
+
+  .basketCounterBtnDetail {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .addBasketSldBtnDetail {
+    width: 100%;
+  }
+
+  .productTabs h6 {
+    width: 50%;
+  }
+
+  .productTabs h6 span {
+    width: 100%;
+  }
+
+  .commentSecHeaderC h4 {
+    padding-left: 20px;
+  }
+  .commentSecHeader h4 {
+    padding-left: 20px;
+  }
+
+  .reportCommentContainerp {
+    width: 270px;
+    height: fit-content;
+  }
+
+  .reportCommentContainerBtnsp {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .reportCommentContainerp h6 {
+    margin-bottom: 15px;
+  }
+
+  .reportCommentContainerBtn1p {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+
+  .reportCommentContainerBtn2p {
+    margin-right: 0;
+  }
+
+  .reportCommentContainerp p {
+    margin-bottom: 15px;
+  }
+
+  .reportCommentContainerp {
+    padding: 20px 10px;
+  }
+
+  .reportCommentContainerDonep {
+    width: 270px;
+    height: fit-content;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .recommendedProducts h3 {
+    margin-right: 0px;
+    font-size: 25px;
+    margin-left: 0;
+    padding-top: 0;
+    width: 90%;
+  }
+
+  .reccommendedSliderImage {
+    width: 220px;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 70px;
+  }
+}

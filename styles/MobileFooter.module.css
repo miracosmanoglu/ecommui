@@ -1,0 +1,153 @@
+.footerContainerMobile {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .footerContainerMobile {
+    width: 100%;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    user-select: none;
+  }
+
+  .footerInnerMobile {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .accordionInnerClose {
+    display: none;
+  }
+
+  .footerArticlesMobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .footerLogoMobile h1 {
+    color: #ffffff;
+    font-size: 20px;
+    padding: 0 20px;
+    margin-bottom: 30px;
+  }
+
+  .footerHeadersMobile {
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    cursor: pointer;
+  }
+
+  .footerListsMobile {
+    list-style: none;
+    padding: 0 30px;
+    animation-name: fadeIN;
+    animation-duration: 0.5s;
+    margin-bottom: 30px;
+  }
+
+  @keyframes fadeIN {
+    0% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+
+  .footerListsMobile li {
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+
+  .footerSocialMobile {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .footerSocialMobile a {
+    color: #ffffff;
+    font-size: 30px;
+    margin: 0 30px;
+  }
+
+  .footerNewsHeaderMobile {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid white;
+    padding-top: 20px;
+  }
+
+  .footerNewsHeaderMobile h4 {
+    font-size: 19px;
+    color: white;
+    font-weight: 300;
+    margin: 0;
+    line-height: 1;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .footerNewsHeaderMobile p {
+    width: 90%;
+    margin: auto;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .footerSubFormMobile {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-bottom: 1px solid white;
+    margin-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .footerSubFormMobile input {
+    width: 90%;
+    margin: auto;
+    background: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.205);
+    padding: 15px;
+    padding-left: 0;
+    padding-right: 115px;
+  }
+
+  .footerSubFormMobile input:focus {
+    color: white;
+  }
+
+  .footerSubFormMobile button {
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    background: -moz-linear-gradient(left, white 50%, #333333 50%);
+    background: linear-gradient(to right, white 50%, #333333 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    position: absolute;
+    right: 20px;
+    top: -10px;
+    bottom: 0;
+    margin: auto;
+    height: fit-content;
+    padding: 5px;
+  }
+}

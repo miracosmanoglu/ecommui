@@ -1,0 +1,317 @@
+.messagesPageWrapper {
+  width: 690px;
+  margin-bottom: 107px;
+}
+
+.mainTitleWrapper {
+  width: 100%;
+  border-bottom: 1px solid #333333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainTitle {
+  font-size: 25px;
+  font-family: "Playfair Display", serif;
+  color: #333333;
+  line-height: 1;
+  margin-bottom: 17.5px;
+  font-weight: 600;
+  width: 100%;
+}
+
+.mainTitleLogOut {
+  font-size: 11px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #333333;
+  opacity: 0.6;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.subTitle {
+  display: flex;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1;
+  margin-bottom: 0px;
+  padding-top: 35px;
+  padding-bottom: 84px;
+  border-bottom: 1px solid #333333;
+}
+
+.messagesCardWrapper {
+  padding: 16px;
+  padding-left: 9px;
+  padding-right: 2px;
+  border-bottom: 1px solid #333333;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.messageCardLeft {
+  display: flex;
+}
+
+.messageCardLeftImg {
+  width: 60px;
+  height: 64px;
+  position: relative;
+  margin-right: 12px;
+}
+
+.messageCardLeftImg img {
+  object-fit: cover;
+}
+
+.messageCardDesc {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  line-height: 16px;
+  margin-bottom: 0px;
+}
+
+.messageCardDesc b {
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.messageCardRight {
+  display: flex;
+  flex-direction: column;
+}
+
+.messageCardRight p {
+  margin-bottom: 4px;
+}
+
+/* message detail */
+
+.messageDetailWrapper {
+  padding-bottom: 28px;
+  border-bottom: 1px solid #333333;
+}
+
+.messageDetailCardWrapper {
+  padding: 16px;
+  padding-left: 9px;
+  padding-right: 2px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 51.5px;
+  margin-bottom: 80px;
+}
+
+.messageDetailBoxWrapper {
+  display: flex;
+  flex-direction: column;
+  padding-left: 34px;
+  padding-right: 31px;
+  padding-bottom: 36px;
+  box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.16);
+  border-radius: 5px;
+}
+
+.messageDetailBoxTitle {
+  text-align: center;
+  padding: 29px 0;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #333333;
+  line-height: 16px;
+  margin-bottom: 0px;
+  border-bottom: 1px solid #333333;
+  cursor: pointer;
+}
+
+.messageDetailChatTextWrapper {
+  padding: 14px 0;
+  border-bottom: 1px solid #333333;
+}
+
+.messageDetailChatTextWrapper p {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  line-height: 16px;
+  margin-bottom: 0px;
+}
+
+.messageDetailChatTextWrapper b {
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.messageDetailChatDate {
+  opacity: 0.6;
+  margin-top: 5px;
+}
+
+.messageDetailChatBtn {
+  width: 150px;
+  height: 30px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 10px;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2em;
+  background: linear-gradient(to right, white 50%, #333333 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.2s ease-out;
+  margin-top: 20px;
+}
+
+.messageDetailChatBtn:hover {
+  background-position: left bottom;
+  color: #333333;
+  transition: all 0.1s ease-out;
+  border: 1px solid #333333;
+}
+
+/* MESSAGE MODAL */
+
+.messageModal {
+  width: 500px !important;
+  height: 435px !important;
+  margin: auto;
+  padding: 34px 50px;
+}
+
+.messagesModalTitle {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #333333;
+  line-height: 16px;
+  margin-bottom: 30px;
+  margin-top: 14px;
+}
+
+.desc {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #333333;
+  opacity: 0.4;
+  line-height: 16px;
+  margin-bottom: 4px;
+}
+
+.messageModalTextInput {
+  width: 400px;
+  height: 32px;
+  border: 1px solid #707070;
+  border-radius: 5px;
+  padding: 9px 16px;
+  color: #333333;
+  font-size: 10px;
+  line-height: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.messageModalTextArea::placeholder,
+.messageModalTextInput::placeholder {
+  color: rgba(51, 51, 51, 0.4);
+}
+
+.messageModalTextArea {
+  min-width: 400px;
+  max-width: 400px;
+  min-height: 100px;
+  max-height: 120px;
+  border: 1px solid #707070;
+  border-radius: 5px;
+  padding: 9px 16px;
+  color: #333333;
+  font-size: 10px;
+  line-height: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.messageModalTextAreaSize {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  line-height: 16px;
+  margin-bottom: 0px;
+  text-align: right;
+}
+
+.messageModalSendBtn {
+  width: 400px;
+  height: 30px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 10px;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2em;
+  background: linear-gradient(to right, white 50%, #333333 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.2s ease-out;
+  margin-top: 20px;
+}
+
+.messageModalSendBtn:hover {
+  background-position: left bottom;
+  color: #333333;
+  transition: all 0.1s ease-out;
+  border: 1px solid #333333;
+}
+
+@media only screen and (max-width: 1200px) {
+  .messagesPageWrapper {
+    margin: auto;
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .messagesPageWrapper {
+    width: 90%;
+  }
+
+  .messageCardLeft {
+    margin-right: 20px;
+  }
+
+  /* MESSAGE MODAL */
+
+  .messageModal {
+    width: 300px !important;
+    padding: 20px;
+  }
+
+  .messageModalTextInput,
+  .messageModalSendBtn {
+    width: 100%;
+  }
+
+  .messageModalTextArea {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .messageModalTextAreaSize {
+    margin-right: 30px;
+  }
+}

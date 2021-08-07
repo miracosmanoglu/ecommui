@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.6" height="24" viewBox="0 0 21.6 24">
+  <g id="usericon" transform="translate(-39.282)">
+    <g id="Path_14" data-name="Path 14" transform="translate(39.282 14.4)">
+      <path id="Path_16" data-name="Path 16" d="M59.682,27.6a1.2,1.2,0,0,1-1.2-1.2V24a3.6,3.6,0,0,0-3.6-3.6h-9.6a3.6,3.6,0,0,0-3.6,3.6v2.4a1.2,1.2,0,0,1-2.4,0V24a6.006,6.006,0,0,1,6-6h9.6a6.006,6.006,0,0,1,6,6v2.4A1.2,1.2,0,0,1,59.682,27.6Z" transform="translate(-39.282 -18)"/>
+    </g>
+    <g id="Path_15" data-name="Path 15" transform="translate(44.082)">
+      <path id="Path_17" data-name="Path 17" d="M51.282,12a6,6,0,1,1,6-6A6.006,6.006,0,0,1,51.282,12Zm0-9.6a3.6,3.6,0,1,0,3.6,3.6A3.6,3.6,0,0,0,51.282,2.4Z" transform="translate(-45.282)"/>
+    </g>
+  </g>
+</svg>

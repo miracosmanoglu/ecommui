@@ -1,0 +1,146 @@
+.sliderWrapper {
+  margin: auto;
+  width: 1209px;
+  position: relative;
+}
+
+.sliderBox {
+  position: relative;
+  width: 370px;
+  margin: auto;
+  margin-left: 6px;
+}
+
+.sliderBoxImgContainer {
+  position: relative;
+  width: 370px;
+  height: 556px;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.16);
+  margin-top: 5px;
+}
+
+.sliderTexts {
+  margin-top: 22px;
+}
+
+.mainTitle {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 4px;
+}
+
+.subTitle {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: #00801e;
+  margin-bottom: 32px;
+}
+
+.addBtn {
+  width: 370px;
+  height: 62px;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #333333;
+}
+
+.addBtn p {
+  font-size: 21px;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  color: white;
+  letter-spacing: 0.2em;
+}
+
+@media only screen and (max-width: 1300px) {
+  .sliderWrapper {
+    margin: auto;
+    width: 900px;
+    position: relative;
+    margin-top: 60px;
+  }
+
+  .sliderBox {
+    width: 300px;
+    margin: auto;
+  }
+
+  .sliderBoxImgContainer {
+    width: 300px;
+    height: 451px;
+  }
+
+  .addBtn {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .sliderWrapper {
+    width: 600px;
+  }
+
+  .sliderBox {
+    width: 240px;
+  }
+
+  .sliderBoxImgContainer {
+    width: 240px;
+    height: 270px;
+  }
+
+  .sliderBoxImgContainer img {
+    object-fit: contain;
+  }
+
+  .sliderTexts {
+    margin-top: 22px;
+  }
+
+  .mainTitle {
+    font-size: 12px;
+    margin-bottom: 4px;
+  }
+
+  .subTitle {
+    font-size: 12px;
+    height: 35px;
+    margin-bottom: 10px;
+  }
+
+  .price {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  .addBtn {
+    width: 240px;
+    height: 40px;
+  }
+
+  .addBtn p {
+    font-size: 14px;
+    letter-spacing: 0.2em;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .sliderWrapper {
+    width: 300px;
+  }
+}

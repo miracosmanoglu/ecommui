@@ -1,0 +1,94 @@
+.companyInfoForm {
+  width: 520px;
+  margin: auto;
+  margin-bottom: 285px;
+}
+
+.desc {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  line-height: 16px;
+  margin-bottom: 4px;
+  margin-top: 5px;
+}
+
+.fullNameInput,
+.mailInput,
+.phoneInput {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #707070;
+  border-radius: 5px;
+  padding: 12px 10px;
+  color: #333333;
+  font-size: 10px;
+  line-height: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.fullNameInput::placeholder,
+.mailInput::placeholder,
+.phoneInput::placeholder {
+  color: rgba(51, 51, 51, 0.4);
+}
+
+.continueBtn {
+  width: 185px;
+  height: 40px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 10px;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2em;
+  background: linear-gradient(to right, white 50%, #333333 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.2s ease-out;
+  margin-right: 5px;
+}
+
+.continueBtn:hover {
+  background-position: left bottom;
+  color: #333333;
+  transition: all 0.1s ease-out;
+  border: 1px solid #333333;
+}
+
+.prevBtn {
+  border: none;
+  background: transparent;
+  display: flex;
+  align-items: center;
+}
+
+.prevBtn p {
+  color: #333333;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  text-decoration: underline;
+  margin-left: 20.1px;
+}
+
+.companyInfoBtns {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1250px) {
+  .companyInfoForm {
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .companyInfoForm {
+    width: 90%;
+  }
+}

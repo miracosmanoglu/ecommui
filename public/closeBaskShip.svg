@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
+  <g id="closeBaskShip" transform="translate(-5 -5)">
+    <g id="Group_19" data-name="Group 19" transform="translate(5 5)">
+      <path id="Path_46" data-name="Path 46" d="M6.071,20a1.071,1.071,0,0,1-.757-1.829L18.171,5.314a1.071,1.071,0,1,1,1.515,1.515L6.829,19.686A1.068,1.068,0,0,1,6.071,20Z" transform="translate(-5 -5)" fill="#333"/>
+    </g>
+    <g id="Group_20" data-name="Group 20" transform="translate(5 5)">
+      <path id="Path_47" data-name="Path 47" d="M18.928,20a1.068,1.068,0,0,1-.757-.314L5.314,6.829A1.071,1.071,0,0,1,6.829,5.314L19.686,18.171A1.071,1.071,0,0,1,18.928,20Z" transform="translate(-5 -5)" fill="#333"/>
+    </g>
+  </g>
+</svg>

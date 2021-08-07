@@ -1,0 +1,78 @@
+.accountIndexPage {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.leftSideWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-right: 166px;
+}
+
+.mainTitle {
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+  color: #333333;
+  line-height: 1;
+  margin-bottom: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.subTitle {
+  font-size: 11px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #333333;
+  line-height: 1;
+  margin-bottom: 8px;
+  opacity: 0.6;
+  margin-left: 16px;
+  cursor: pointer;
+}
+
+.leftSideWrapperMobile {
+  display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  .accountIndexPage {
+    flex-direction: column;
+  }
+
+  .leftSideWrapper {
+    display: none;
+  }
+
+  .leftSideWrapperMobile {
+    display: unset;
+    width: 690px;
+    margin: auto;
+  }
+
+  .mainTitleMobile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px !important;
+  }
+
+  .mainTitleMobile p {
+    font-size: 14px;
+    font-family: "Playfair Display", serif;
+    color: #333333;
+    line-height: 1;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .leftSideWrapperMobile {
+    width: 90%;
+  }
+}

@@ -1,0 +1,46 @@
+.faqAccordion h6 {
+  font-weight: 400;
+  font-size: 12px;
+  font-style: normal;
+  color: #333333;
+  padding: 19px;
+  padding-top: 21px;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+  margin: 0;
+  position: relative;
+  user-select: none;
+}
+
+.faqAccordion span {
+  font-size: 16px;
+  position: absolute;
+  right: 8px;
+  top: 19px;
+  font-weight: 400;
+}
+
+.faqAccordionInner {
+  padding: 12px 6px 19px 10px;
+  margin-top: 7px;
+  animation-name: fadeIN;
+  animation-duration: 0.5s;
+  border-bottom: 1px solid black;
+}
+
+.faqAccordionInner p {
+  font-size: 12px;
+}
+.faqAccordionInnerClose {
+  display: none;
+}
+@keyframes fadeIN {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

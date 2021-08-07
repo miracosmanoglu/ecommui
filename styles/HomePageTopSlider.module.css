@@ -1,0 +1,206 @@
+.sliderWrapper {
+  width: 1200px;
+  margin: auto;
+}
+
+.sliderBox {
+  position: relative;
+  height: 825px;
+}
+
+.sliderBox img {
+  width: 1200px;
+}
+
+.sliderBoxImgContainer {
+  position: relative;
+  width: 1200px;
+  height: 770px;
+}
+
+.sliderTexts {
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  top: 0;
+  width: 407px;
+  margin-top: 130px;
+  margin-right: 95px;
+}
+
+.mainTitle {
+  font-size: 72px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: #333333;
+  text-align: right;
+  line-height: 1;
+  height: 168px;
+  width: 408px;
+  margin-bottom: 0;
+}
+
+.subTitle {
+  font-size: 36px;
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+  color: #333333;
+  text-align: right;
+  margin-bottom: 32px;
+}
+
+.description {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  color: #333333;
+  text-align: right;
+  margin-bottom: 50px;
+  line-height: 27px;
+}
+
+.discoverBtn {
+  width: 270px;
+  height: 64px;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: auto;
+  margin-right: 15px;
+
+  background: linear-gradient(to right, #333333 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.2s ease-out;
+}
+
+.discoverBtn:hover {
+  background-position: left bottom;
+  transition: all 0.1s ease-out;
+}
+
+.discoverBtn p {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  color: #333333;
+  letter-spacing: 0.4em;
+}
+
+.discoverBtn:hover p {
+  color: white;
+}
+
+@media only screen and (max-width: 1200px) {
+  .sliderWrapper {
+    width: 100%;
+    margin: auto;
+  }
+
+  .sliderBox {
+    position: relative;
+    height: 350px;
+  }
+
+  .sliderBox img {
+    width: 100%;
+  }
+
+  .sliderBoxImgContainer {
+    position: relative;
+    width: 100%;
+    height: 300px;
+  }
+
+  .sliderBoxImgContainer img {
+    object-fit: cover;
+  }
+
+  .sliderTexts {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    top: 30px;
+    width: 100%;
+    max-width: 537px;
+    margin-top: 0px;
+    margin-right: 0px;
+    padding: 0 30px;
+    padding-left: 80px;
+  }
+
+  .mainTitle {
+    font-size: 25px;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    color: #333333;
+    text-align: right;
+    line-height: 1;
+    height: unset;
+    width: 100%;
+    margin-bottom: 0;
+    margin: 30px 0 !important;
+    margin-top: 25px !important;
+  }
+
+  .subTitle {
+    font-size: 15px;
+    font-family: "Playfair Display", serif;
+    font-weight: normal;
+    color: #333333;
+    text-align: right;
+    margin: 10px 0;
+  }
+
+  .description {
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    color: #333333;
+    text-align: right;
+    margin-bottom: 0px;
+    line-height: 18px;
+    margin: 10px 0;
+  }
+
+  .discoverBtn {
+    width: 135px;
+    height: 32px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: auto;
+    margin-right: 15px;
+
+    background: linear-gradient(to right, #333333 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.2s ease-out;
+  }
+
+  .discoverBtn p {
+    font-size: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    color: #333333;
+    letter-spacing: 0.4em;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .sliderTexts {
+    top: 20px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .mainTitle {
+    margin-top: 0px !important;
+  }
+}
